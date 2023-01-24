@@ -14,13 +14,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnButton : Button= findViewById(R.id.btnButton)
-        val Name : EditText = findViewById(R.id.Name)
         val Surname : EditText = findViewById(R.id.Surname)
         val DOB : EditText = findViewById(R.id.BOD)
 
 
         btnButton.setOnClickListener{
-            if(Name.text.isEmpty() )
+            if(Surname.text.isEmpty() )
                 Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
         }
 

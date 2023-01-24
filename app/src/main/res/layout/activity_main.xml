@@ -20,13 +20,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Name"
-        android:padding="10dp"
-        android:id="@+id/Name"
-        />
+
 
     <EditText
         android:layout_width="match_parent"
@@ -41,6 +35,13 @@
         android:hint="BOD"
         android:padding="10dp"
         android:id="@+id/BOD"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:padding="10dp"
+        android:id="@+id/Age"/>
 
     <Button
         android:id="@+id/btnButton"
