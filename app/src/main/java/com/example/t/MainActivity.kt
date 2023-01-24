@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
 
         btnButton.setOnClickListener{
-            if(Surname.text.isEmpty() )
+            if(!Surname.text.isEmpty() )
                 Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
         }
 
